@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+    </style>
+
+    <!-- login Page Styles START-->
+    <style name="loginPageHeading">
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:paddingTop">30dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="horizontalView">
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingTop">10dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="loginButton">
+        <item name="android:layout_width">300dp</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+
+    <style name="loginTextView">
+        <item name="android:textSize">15sp</item>
+        <item name="android:paddingStart">15dp</item>
+        <item name="android:paddingBottom">10dp</item>
+    </style>
+
+    <style name="loginImageView">
+        <item name="android:layout_width">30dp</item>
+        <item name="android:layout_height">30dp</item>
+    </style>
+
+    <style name="divider">
+        <item name="android:layout_width">300dp</item>
+    </style>
+
+
+</resources>

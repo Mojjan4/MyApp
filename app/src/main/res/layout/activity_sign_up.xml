@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    tools:context=".SignUpActivity">
+
+
+    <TextView
+        android:id="@+id/titleSignUp"
+        style="@style/TextAppearance.MaterialComponents.Headline4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/signup"
+        android:textAlignment="center" />
+
+    <TextView
+        android:id="@+id/subHeadline"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleSignUp"
+        android:paddingBottom="50dp"
+        android:text="@string/create_a_new_account"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/chosenEmail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/subHeadline"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/your_email"
+        android:inputType="textEmailAddress" />
+
+
+    <EditText
+        android:id="@+id/chosenPassword"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chosenEmail"
+        android:layout_marginBottom="20dp"
+        android:hint="@string/choose_your_password"
+        android:inputType="textPassword" />
+
+
+<!--    <EditText-->
+<!--        android:id="@+id/userName"-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:layout_below="@id/chosenPassword"-->
+<!--        android:hint="@string/your_awesome_username" />-->
+
+    <Button
+        android:id="@+id/signUpBtn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/chosenPassword"
+        android:layout_marginTop="10dp"
+        android:text="@string/singup"
+
+        />
+
+
+</RelativeLayout>

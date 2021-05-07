@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">My app</string>
+    <string name="Login_heading">Login</string>
+    <string name="Login_username">Username</string>
+    <string name="Login_username_username" />
+    <string name="Login_password">Password</string>
+    <string name="Login_forgot_password">Forgot password?</string>
+    <string name="Login_button_login">Login</string>
+    <string name="Login_text">Or Sign Up Using</string>
+    <string name="or_why_not_signup">Or why not: <b>SignUp</b>?</string>
+    <string name="signup">SignUp</string>
+    <string name="create_a_new_account">Create a New Account</string>
+    <string name="your_email">Your Email</string>
+    <string name="choose_your_password">Choose your password</string>
+    <string name="your_awesome_username">Your awesome username</string>
+    <string name="singup">SignUp</string>
+</resources>
