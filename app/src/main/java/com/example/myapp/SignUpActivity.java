@@ -29,8 +29,6 @@ public class SignUpActivity extends AppCompatActivity {
 
     private ProgressDialog progressDialog;
 
-    private ActionBar actionbar;
-
     private String email = "", password = "";
 
     @Override
@@ -38,11 +36,6 @@ public class SignUpActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         binding = ActivitySignUpBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
-
-        actionbar = getSupportActionBar();
-        actionbar.setTitle("SignUp");
-        actionbar.setDisplayHomeAsUpEnabled(true);
-        actionbar.setDisplayShowHomeEnabled(true);
 
         firebaseAuth = FirebaseAuth.getInstance();
 

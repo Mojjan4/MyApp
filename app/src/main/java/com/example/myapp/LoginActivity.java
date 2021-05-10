@@ -25,8 +25,6 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class LoginActivity extends AppCompatActivity {
 
-    private ActionBar actionBar;
-
     private String email = "", password = "";
 
     private Button login;
@@ -41,9 +39,6 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.login_main);
-
-        actionBar = getSupportActionBar();
-        actionBar.setTitle("Login");
 
         progressDialog = new ProgressDialog(this);
         progressDialog.setTitle("Login");
