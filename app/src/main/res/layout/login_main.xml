@@ -85,21 +85,20 @@ android:paddingBottom="20dp"
         android:background="?android:attr/listDivider" />
 
     <TextView
-        android:id="@+id/textView5"
+        android:id="@+id/login_forgot_password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_gravity="right"
-        android:paddingTop="5dp"
-        android:paddingBottom="20dp"
+        android:paddingTop="10dp"
         android:text="@string/Login_forgot_password" />
 
     <Button
         android:id="@+id/login_btn_login"
         style="@style/loginButton"
         android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
         android:background="@drawable/login_button"
-        android:text="@string/Login_button_login"
-        />
+        android:text="@string/Login_button_login" />
 
 <!--    <TextView-->
 <!--        android:id="@+id/textView6"-->
